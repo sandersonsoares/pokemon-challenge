@@ -19,6 +19,7 @@ Para a execução do projeto em sua máquina você vai precisar do node instalad
 
 - [Node](https://nodejs.org/en/)
 - [NPM](www.npmjs.com/) - Já vem na instalação do node
+- [Yarn](https://yarnpkg.com/) - (opcional)
 
 ## Instalação das dependências
 
