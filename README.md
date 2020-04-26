@@ -50,4 +50,4 @@ yarn start
 
 ## Documentação da API
 
-O projeto utilizou a api do PokeApi. É possíve encontrar a documentação da API que servirá o App: [Documentação](https://pokeapi.co/)
+O projeto utilizou a api do PokeApi. É possível encontrar a documentação da API que servirá o App: [Documentação](https://pokeapi.co/)
