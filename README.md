@@ -23,7 +23,7 @@ Para a execução do projeto em sua máquina você vai precisar do node instalad
 
 ## Instalação das dependências
 
-No arquivo `package.json` tem descritos todas as dependências do projeto, é sempre importante antes da execução do projeto instalar. Para isso, você pode executar o seguinte comando:
+No arquivo `package.json` tem descritos todas as dependências do projeto. É essencial a instalação antes da execução do projeto. Para isso, você pode executar o seguinte comando:
 
 ```bash
 npm install
