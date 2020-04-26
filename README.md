@@ -1,8 +1,13 @@
-[![Studus](/public/apple-touch-icon.png)](https://pokemon-9ba4f.web.app/)
 
-## Pokemón Challenge
+<p align="center">
+  <img src="/public/apple-touch-icon.png" alt='...'>
+</p>
 
-In the project directory, you can run:
+## Pokemon Challenge
+
+Aplicação desenvolvida para avliação do processo seletivo do Invillia. O app foi desenvolvido em ReactJS, utilizando como linguagem principal o Javascript.
+
+Foi utilizado pré-processador 
 
 ### `yarn start`
 
