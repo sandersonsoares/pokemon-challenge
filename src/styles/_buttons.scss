@@ -1,0 +1,60 @@
+.btn {
+    background: transparent;
+    box-shadow: none !important;
+    -ms-flex-align: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem 1.25rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    transition-duration: 250ms;
+
+    &:hover,
+    &:active,
+    &:focus {
+        background: transparent;
+    }
+}
+
+@each $status, $cor in $colors {
+    .btn-#{$status} {
+        background: $cor !important;
+        color: if($status == 'neutral', #3c3e6d, #fff);
+        border-color: $cor !important;
+        transition-duration: 250ms;
+
+        &:hover,
+        &:active,
+        &:focus {
+            box-shadow: 0px 14px 30px -11px rgba($cor, 08) !important;
+            background: $cor !important;
+            border-color: $cor;
+        }
+    }
+
+    .btn-outline-#{$status} {
+        background: transparent;
+        color: $cor;
+        border-color: $cor;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $cor;
+            border-color: $cor;
+            border-color: map-get($colors, success);
+            transform: scale(1.1);
+
+            svg {
+                color: map-get($colors, success);
+            }
+        }
+    }
+
+}
