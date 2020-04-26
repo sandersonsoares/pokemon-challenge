@@ -1,3 +1,4 @@
+[![Studus](/public/apple-touch-icon.png)](https://pokemon-9ba4f.web.app/)
 
 ## Pokemón Challenge
 
