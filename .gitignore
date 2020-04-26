@@ -24,7 +24,7 @@ yarn-error.log*
 yarn.lock
 
 .firebase/
-
+firebase.json
 .firebaserc
 
 src/index.css.map
