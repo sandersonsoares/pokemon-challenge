@@ -5,7 +5,7 @@
 
 # Pokemon Challenge
 
-Aplicação desenvolvida para avliação do processo seletivo do Invillia. O app foi desenvolvido em [ReactJS](https://pt-br.reactjs.org/), utilizando como linguagem principal o Javascript.
+Aplicação desenvolvida para avaliação do processo seletivo do Invillia. O app foi desenvolvido em [ReactJS](https://pt-br.reactjs.org/), utilizando como linguagem principal o Javascript.
 
 Foi utilizado o [SASS](https://sass-lang.com/) como pré-processador de CSS, auxiliando na agilidade para o desenvolvimento dos estilos dos componentes. Para a compilação do SASS e assitência, o [Grunt](https://gruntjs.com/) foi a Task Runner escolhida.
 
